@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:orientation="vertical">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:background="@drawable/round_corner"
+       android:orientation="vertical"
+       android:padding="12dp">
+
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginBottom="15dp"
+          android:gravity="center"
+          android:text="좋아하는 책을 롱클릭 하세요"
+          android:textSize="20sp"
+          android:textStyle="bold" />
+
+      <LinearLayout
+          android:id="@+id/book1"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginBottom="15dp"
+          android:background="@drawable/list_round"
+          android:orientation="horizontal"
+          android:padding="15dp">
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_weight="3"
+             android:orientation="vertical"
+             android:paddingRight="5dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="종이여자"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="기욤뮈소 저"
+                android:textSize="13sp"
+                android:textStyle="bold" />
+         </LinearLayout>
+
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_weight="1"
+             android:text="베스트셀러 작가와 그의 소설 속 여주인공의 색다른 사랑 이야기
+기욤 뮈소다운 기발한 착상과 놀라운 결말이 돋보이는 장편소설" />
+      </LinearLayout>
+
+
+      <LinearLayout
+          android:id="@+id/book2"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginBottom="15dp"
+          android:background="@drawable/list_round"
+          android:orientation="horizontal"
+          android:padding="20dp">
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_weight="3"
+             android:orientation="vertical"
+             android:paddingRight="5dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="달러구트 꿈 백화점"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="이미예 저"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+         </LinearLayout>
+
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_weight="1"
+             android:text="잠들어야만 입장 가능한 꿈 백화점에서 일어나는 비밀스럽고도 기묘하며 가슴 뭉클한 판타지 소설" />
+      </LinearLayout>
+
+
+      <LinearLayout
+          android:id="@+id/book3"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginBottom="15dp"
+          android:background="@drawable/list_round"
+          android:orientation="horizontal"
+          android:padding="20dp">
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_weight="3"
+             android:orientation="vertical"
+             android:paddingRight="5dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="미 비포 유"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="조조모예스 저"
+                android:textSize="13sp"
+                android:textStyle="bold" />
+         </LinearLayout>
+
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_weight="1"
+             android:text="죽음 앞에서 사랑이 물었다.
+내 곁에서 그냥, 살아주면 안 되나요?" />
+      </LinearLayout>
+
+
+      <LinearLayout
+          android:id="@+id/book4"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginBottom="15dp"
+          android:background="@drawable/list_round"
+          android:orientation="horizontal"
+          android:padding="20dp">
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_weight="3"
+             android:orientation="vertical"
+             android:paddingRight="5dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="연금술사"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="파울로\n코엘료 저"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+         </LinearLayout>
+
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_weight="1"
+             android:text="마음의 목소리에 귀기울이는 것이 얼마나 중요한지 증언하는 성서와도 같은 책, 진정 자기 자신의 꿈과 대면하고자 하는 모든 이를 축복하는 희망과 환희의 메시지" />
+      </LinearLayout>
+
+      <LinearLayout
+          android:id="@+id/book5"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:background="@drawable/list_round"
+          android:orientation="horizontal"
+          android:padding="20dp">
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_weight="3"
+             android:orientation="vertical"
+             android:paddingRight="5dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="유리멘탈을 위한 심리책"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="미즈시마 히로코 저"
+                android:textSize="13sp"
+                android:textStyle="bold" />
+         </LinearLayout>
+
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_weight="1"
+             android:text="인간관계 심리 처방의 최고 권위자가 알려주는 상처투성이 세상에서 나를 지키는 단단한 마음 만들기" />
+      </LinearLayout>
+   </LinearLayout>
+</ScrollView>

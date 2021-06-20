@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#E6D2FB"
+    android:padding="12dp"
+    android:baselineAligned="false">
+
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/round_corner"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="10dp"
+                android:textSize="35sp"
+                android:text="My Favorite Things"
+                android:layout_marginTop="10dp"/>
+            <TextView
+                android:id="@+id/ext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="30dp"
+                android:text="여러 항목들 중 \n당신의 취향인 것을 롱클릭하고\nRESULT로 결과보기" />
+
+
+        </LinearLayout>
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:paddingTop="15dp">
+        <Button
+            android:id="@+id/btnBook"
+            android:layout_width="wrap_content"
+            android:layout_height="62dp"
+            android:textSize="12sp"
+            android:background="@drawable/book_round"
+            android:text="BOOK"
+            android:layout_marginBottom="5dp"/>
+        <Button
+            android:id="@+id/btnMovie"
+            android:layout_width="wrap_content"
+            android:layout_height="62dp"
+            android:textSize="12sp"
+            android:background="@drawable/movie_round"
+            android:text="MOVIE"
+            android:layout_marginBottom="5dp"/>
+        <Button
+            android:id="@+id/btnMusic"
+            android:layout_width="wrap_content"
+            android:layout_height="62dp"
+            android:textSize="12sp"
+            android:background="@drawable/music_round"
+            android:text="MUSIC"
+            android:layout_marginBottom="5dp"/>
+        <Button
+            android:id="@+id/btnPerson"
+            android:layout_width="wrap_content"
+            android:layout_height="62dp"
+            android:textSize="10sp"
+            android:background="@drawable/person_round"
+            android:text="PERSON"
+            android:layout_marginBottom="5dp"/>
+        <Button
+            android:id="@+id/btnResult"
+            android:layout_width="wrap_content"
+            android:layout_height="62dp"
+            android:textSize="12sp"
+            android:background="@drawable/result_round"
+            android:text="RESULT"
+            android:layout_marginBottom="5dp"/>
+    </LinearLayout>
+
+
+</LinearLayout>

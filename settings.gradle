@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "choMJ_60191690_FinalExam"
